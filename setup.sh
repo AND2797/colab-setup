@@ -14,5 +14,4 @@ pip3 install kaggle
 git clone https://github.com/AND2797/dotfiles.git
 sh dotfiles/install.sh
 
-nvim +PlugInstall +qall > /dev/null
 
