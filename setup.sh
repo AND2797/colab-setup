@@ -16,4 +16,5 @@ mkdir -p .kaggle/kaggle.json
 git clone https://github.com/AND2797/dotfiles.git
 sh dotfiles/install.sh
 
-
+git config --global user.name "AND2797"
+git config --global user.email "aditya.das2797@gmail.com"
