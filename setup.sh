@@ -12,5 +12,5 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 pip3 install kaggle
 git clone https://github.com/AND2797/dotfiles.git
-sh install.sh
+sh dotfiles/install.sh
 
