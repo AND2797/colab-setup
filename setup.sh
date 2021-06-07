@@ -11,7 +11,10 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 pip3 install kaggle
-mkdir -p .kaggle/kaggle.json
+mkdir -p .kaggle && touch .kaggle/kaggle.json
+kaggle datasets download -d muteks/cub-200-2011
+
+
 
 git clone https://github.com/AND2797/dotfiles.git
 sh dotfiles/install.sh
