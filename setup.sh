@@ -2,7 +2,7 @@ wget https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
 
 chmod u+x nvim.appimage
 
-echo "alias nvim=/root/nvim.appimage" > ~/.bashrc
+echo "alias nvim=/root/nvim.appimage" >> ~/.bashrc
 
 source .bashrc
 mkdir -p .config
