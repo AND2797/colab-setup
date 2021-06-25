@@ -19,5 +19,9 @@ kaggle datasets download -d muteks/cub-200-2011
 git clone https://github.com/AND2797/dotfiles.git
 sh dotfiles/install.sh
 
-git config --global user.name "AND2797"
-git config --global user.email "aditya.das2797@gmail.com"
+read -p "Enter your Github Username: " username
+read -p "Enter your Github Email: " email
+git config --global user.name $username
+
+
+git config --global user.email $email 
